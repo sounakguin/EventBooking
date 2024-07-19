@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import AddEventForm from './Components/AddEventForm';
 import EventsList from './Components/EventsList';
 import Sidebar from './Components/Slidebar';
-import 'tailwindcss/tailwind.css';
+
 
 const App = () => {
   return (

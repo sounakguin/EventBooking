@@ -54,7 +54,7 @@ const EventsList: React.FC = () => {
   };
 
   return (
-    <div className="p-4">
+    <div className="p-4  ">
       <div className="flex justify-between items-center">
         <h2 className="text-2xl ">Events List</h2>
         <button

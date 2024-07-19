@@ -29,7 +29,9 @@ const AddEventForm: React.FC = () => {
   const dispatch = useDispatch();
   const [event, setEvent] = useState<EventState>(initialEventState);
 
-  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+  const handleChange = (
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+  ) => {
     const { name, value } = e.target;
     setEvent((prevEvent) => ({
       ...prevEvent,
@@ -54,7 +56,6 @@ const AddEventForm: React.FC = () => {
         onSubmit={handleSubmit}
         className="max-w-full mx-auto my-4 p-6 bg-white border border-gray-300 rounded shadow-md"
       >
-        {/* Form Fields */}
         <div className="flex flex-wrap -mx-4 mb-4">
           <div className="w-full md:w-1/2 px-4 mb-4">
             <label

@@ -1,6 +1,4 @@
-// types.ts
 
-// Type for an individual event
 export interface Event {
     id: string;
     eventName: string;
@@ -13,9 +11,8 @@ export interface Event {
     totalSubEvents: string;
   }
   
-  // State type for the events slice
+
   export interface EventsState {
     eventsList: Event[];
-    // You can add more state properties if needed
   }
   

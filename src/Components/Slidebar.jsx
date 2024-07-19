@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import logo from '../../public/Images/logo.png';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import logo from "../../public/Images/logo.png";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,11 +40,15 @@ const Sidebar = () => {
       </div>
       <div
         className={`h-full md:h-screen   w-full md:w-64 bg-gray-900 text-white flex flex-col lg:block ${
-          isOpen ? 'block' : 'hidden'
+          isOpen ? "block" : "hidden"
         } lg:flex`}
       >
         <div className="flex items-center p-0 md:p-4 lg:justify-start">
-          <img src={logo} alt="logo" className="h-20 w-20 lg:h-10 lg:w-10 hidden md:block" />
+          <img
+            src={logo}
+            alt="logo"
+            className="h-20 w-20 lg:h-10 lg:w-10 hidden md:block"
+          />
           <div className="pt-7 font-bold text-xl lg:pt-0 lg:pl-2 hidden md:block">
             Praeclarum Tech
           </div>
@@ -57,7 +61,6 @@ const Sidebar = () => {
           <Link to="/Events" className="block p-4 hover:bg-gray-700">
             Booking Form Data
           </Link>
-          {/* Add more links or content here as needed */}
         </div>
       </div>
     </div>
