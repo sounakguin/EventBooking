@@ -50,7 +50,7 @@ const Sidebar = () => {
             className="h-20 w-20 lg:h-10 lg:w-10 hidden md:block"
           />
           <div className="pt-7 font-bold text-xl lg:pt-0 lg:pl-2 hidden md:block">
-            Praeclarum Tech
+            Booking
           </div>
         </div>
         <div className="border border-sky-500"></div>
